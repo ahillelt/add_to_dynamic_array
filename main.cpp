@@ -13,7 +13,7 @@ int main() {
 
     int* dynamic_array = nullptr;
 
-    dynamic_array =  int [physical_size];
+    dynamic_array =  new int [physical_size];
 
     add_to_array(dynamic_array,logical_size,physical_size,10);
     add_to_array(dynamic_array,logical_size,physical_size,16);
