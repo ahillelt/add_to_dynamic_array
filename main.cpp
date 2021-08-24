@@ -7,12 +7,11 @@ const int ARRAY_INCREASE = 2;
 
 int main() {
     int logical_size, physical_size;
-
+    int* dynamic_array = nullptr;
+    
     logical_size = 0;
     physical_size = 1;
-
-    int* dynamic_array = nullptr;
-
+    
     dynamic_array =  new int [physical_size];
 
     add_to_array(dynamic_array,logical_size,physical_size,10);
